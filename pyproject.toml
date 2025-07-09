@@ -1,0 +1,20 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "fusebox"
+version = "0.0.1"
+description = "A lightweight and Pythonic dependency injection container"
+authors = ["Filip Tanurovski <filip@tanurov.ski>"]
+readme = "README.md"
+license = "MIT"
+packages = [{include = "fusebox"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0.0"
+pyright = "^1.0.0"
+ruff = "^0.12.2"

@@ -1,0 +1,6 @@
+indent-width = 2
+target-version = "py39"
+
+[lint]
+select = ["I"]
+
